@@ -1,0 +1,50 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(477,5): warning MSB8004: Le répertoire Output ne se termine pas par une barre oblique finale. Cette instance de build ajoutera une barre oblique, comme requis, pour permettre l'évaluation correcte du répertoire Output.
+  Assembling spoofinternal.asm...
+  Assembling _spoofer_stub.asm...
+cl : ligne de commande warning D9025: substitution de '/sdl' par '/GS-'
+  dllmain.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\ostream(340,1): warning C4530: Gestionnaire d'exceptions C++ utilisé, mais les sémantiques de déroulement n'ont pas été activées. Spécifiez /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\ostream(333): message : pendant la compilation de la fonction membre classe modèle 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Users\Elève\Desktop\AmongUs Release\target\MainHooking.h(207): message : voir la référence à l'instanciation de la fonction modèle 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)' en cours de compilation
+C:\Users\Elève\Desktop\AmongUs Release\target\MainHooking.h(207): message : voir la référence à l'instanciation classe modèle 'std::basic_ostream<char,std::char_traits<char>>' en cours de compilation
+  FortUpdater.cpp
+  Helper.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(725,1): warning C4530: Gestionnaire d'exceptions C++ utilisé, mais les sémantiques de déroulement n'ont pas été activées. Spécifiez /EHsc
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(700): message : voir la référence à l'instanciation de la fonction modèle 'int *std::vector<int,std::allocator<int>>::_Emplace_reallocate<_Ty>(int *const ,_Ty &&)' en cours de compilation
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(708): message : voir la référence à l'instanciation de la fonction modèle 'int *std::vector<int,std::allocator<int>>::_Emplace_reallocate<_Ty>(int *const ,_Ty &&)' en cours de compilation
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(721): message : voir la référence à l'instanciation de la fonction modèle '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<int>(int &&)' en cours de compilation
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(720): message : pendant la compilation de la fonction membre classe modèle 'void std::vector<int,std::allocator<int>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Elève\Desktop\AmongUs Release\target\Helper.cpp(26): message : voir la référence à l'instanciation de la fonction modèle 'void std::vector<int,std::allocator<int>>::push_back(_Ty &&)' en cours de compilation
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Elève\Desktop\AmongUs Release\target\Helper.cpp(15): message : voir la référence à l'instanciation classe modèle 'std::vector<int,std::allocator<int>>' en cours de compilation
+  offsets.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  Utilities.cpp
+     Création de la bibliothèque .\x64\Release\TargetHolo.lib et de l'objet .\x64\Release\TargetHolo.exp
+LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMTD' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 1890 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  Target.vcxproj -> C:\Users\Elève\Desktop\AmongUs Release\target\.\x64\Release\TargetHolo.dll
